@@ -1,0 +1,13 @@
+{
+  "v": 1,
+  "id": "aac7cb826785bfae",
+  "salt": "5svOodGRpSjroh4CcEDjng==",
+  "iter": 600000,
+  "version": "0.4.4",
+  "content": "content.bin",
+  "check": "check.bin",
+  "zip": {
+    "file": "download.bin",
+    "name": "snow-watch-0.4.4.zip"
+  }
+}

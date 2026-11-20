@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>SNOW Watch</title>
+  <link rel="icon" href="icon-32.png">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <main class="gate" id="gate">
+    <form class="gate-card" id="unlock" autocomplete="off">
+      <img src="icon-128.png" alt="" width="40" height="40" class="gate-mark">
+      <h1>SNOW Watch</h1>
+      <p class="muted">This page is for the team. Enter the password you were given.</p>
+      <label class="sr" for="pw">Password</label>
+      <input class="input" id="pw" type="password" autocomplete="current-password" placeholder="Password" required>
+      <label class="check"><input type="checkbox" id="remember"> Remember on this browser</label>
+      <button class="btn primary wide" type="submit" id="open">Open</button>
+      <p class="gate-msg" id="gate-msg" role="status"></p>
+      <p class="muted small">Ask the person who shared this link if you do not have the password.</p>
+    </form>
+    <noscript><p class="gate-msg">Turn on JavaScript to open this page.</p></noscript>
+  </main>
+  <div id="app" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
